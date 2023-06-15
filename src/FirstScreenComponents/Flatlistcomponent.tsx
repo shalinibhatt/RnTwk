@@ -11,7 +11,7 @@ import {useNavigation} from "@react-navigation/native";
 
 
 const Flatlistcomponent = (props: any) => {
-  const navigation = useNavigation();
+  const navigation :any= useNavigation();
   return (
     <FlatList
       data={props.filteredContacts}
