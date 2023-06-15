@@ -11,7 +11,7 @@ import {
 } from "react-native";
 import { AntDesign, MaterialIcons } from "@expo/vector-icons";
 import {useQuery} from "@tanstack/react-query";
-import ModalView from "./ModalView";
+import ModalView from "../FirstScreenComponents/ModalView";
 
 const fetchContacts = async () => {
   const response = await fetch("https://jsonplaceholder.typicode.com/users");
